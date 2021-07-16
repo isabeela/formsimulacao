@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simulação JC Litoral </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section id="pc">
+        <div id="seguro-vida">
+            <img src="images/seguro-vida.jpg">
+        </div>
+        <div id="formulario-pc">
+            <img src="images/ilustracao-familia.png" class="img" alt="familia">
+            <div class="form">
+                <form action="envia-email.php" method="POST">
+                    <input type="text" name="nome" placeholder="Nome" required>
+                    <input type="email"  name="email" placeholder="Email" required>
+                    <input type="tel"  name="celular" placeholder="Celular">
+                    <select class="select-pc" placeh>
+                            <option value="Seguro de Vida" name="segurovida"> Seguro de Vida </option>
+                    </select>
+                    <button value="submit" name="enviar"> Fazer Simulação </button>
+                </form>
+            </div>
+        </div>    
+    </section>
+        
+
+    <section id="celular">
+        <section id="topo"></section>
+        <section id="formulario">
+            <div class="form">
+                <form action="envia-email.php" method="POST">
+                    <input type="text" name="nome" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="tel" name="celular" placeholder="Celular">
+                    <select>
+                        <option value="Seguro de Vida" name="segurovida"> Seguro de Vida </option>
+                    </select>
+                    <button value="submit"> Fazer Simulação </button>
+                </form>
+            </div>
+        </section>    
+
+    </section>
+   
+    
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #8ac2ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#pc {
+    background-color: #f3e7d1;
+    width: 100%;
+    height: 800px;
+}
+
+/* Celular */
+
+#topo {
+    background-image: url('../images/topo-form.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 320px;
+}
+
+/* Formulário */
+
+#formulario {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form {
+    width: 80%;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    box-shadow: 15px 15px 10px 10px  rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: center;
+}
+
+input {
+    width: 85%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+select  {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+.select-pc {
+    width: 90%;
+}
+
+input::placeholder, select{
+    color: #0051ea;
+    font-size: 1.3rem;
+
+}
+
+button {
+    background-color: #ee8446;
+    margin: 10px 0;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 15px;
+    width: 85%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+/* Formulário para o pc */
+
+#formulario-pc {
+    width: 50%;
+    float: right;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.img {
+    margin: 50px 0 -30px 0;
+}
+#seguro-vida {
+    width: 50%;
+    float: left;
+}
+
+@media (min-width: 801px) {
+    #celular {
+        display: none;
+    }
+}
+
+@media (max-width: 801px) {
+    #pc {
+        display: none;
+    }
+}
